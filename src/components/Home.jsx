@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import { Language } from '../context/Language'
+import studioImg from '../assets/studio.jpg'
 
 const Home = () => {
     const {language} = useContext(Language);
@@ -10,7 +11,7 @@ const Home = () => {
             <div className='sticky top-0 z-[1]'>
                 <Navbar />
             </div>
-            <section id='home' className="hero min-h-screen" style={{backgroundImage: 'url(./src/assets/studio.jpg)'}}>
+            <section id='home' className="hero min-h-screen" style={{backgroundImage: `url(${studioImg})`}}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-neutral-content flex-col-reverse md:flex-row">
                     <div>
