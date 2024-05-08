@@ -17,7 +17,7 @@ const Services = () => {
                         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                             <ServiceCard imgUrl={frontend} title={language=='english' ? 'Frontend developing' : language=='spanish' ? 'Desarrollo frontend' : ''} content='React JS, Tailwind CSS, Bootstrap'/>
                             <ServiceCard imgUrl={backend} title={language=='english' ? 'Backend developing' : language=='spanish' ? 'Desarrollo backend' : ''} content='Python - FastAPI, Python - SQLAlchemy'/>
-                            <ServiceCard imgUrl={data} title={language=='english' ? 'Data Analysis/Science' : language=='spanish' ? 'Análisis/Ciencia de datos' : ''} content='Python - Numpy, Python - Pandas, Python - Matplotlib, Python - Seaborn, Python - Plotly'/>
+                            <ServiceCard imgUrl={data} title={language=='english' ? 'Data Analysis | Science' : language=='spanish' ? 'Análisis | Ciencia de datos' : ''} content='Python - Numpy, Python - Pandas, Python - Matplotlib, Python - Seaborn, Python - Plotly'/>
                         </div>
                     </div>
                 </div>
