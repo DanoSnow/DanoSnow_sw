@@ -65,7 +65,7 @@ const Navbar = () => {
                                         <li><a onClick={selectEnglish}>
                                             <div className='grid grid-cols-4 items-center'>
                                                 <span>{language=='english' ? <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg> : ''}</span>
-                                                <p className='col-span-3'>{language=='english' ? 'English' : language=='spanish' ? 'Spanish' : ''}</p>
+                                                <p className='col-span-3'>{language=='english' ? 'English' : language=='spanish' ? 'Inglés' : ''}</p>
                                             </div>
                                         </a></li>
                                     </ul>
